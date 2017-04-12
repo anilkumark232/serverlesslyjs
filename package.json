@@ -1,0 +1,33 @@
+{
+  "name": "serverlesslyjs",
+  "version": "1.0.0",
+  "description": "serverlesslyjs contains packages related to https://serverlessly.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilkumark232/serverlesslyjs.git"
+  },
+  "keywords": [
+    "serverlessly",
+    "serverlessly.io",
+    "\"serverlessly",
+    "packages\"",
+    "\"image",
+    "analysis\"",
+    "\"device",
+    "info\""
+  ],
+  "author": "Anil kumar anilkumark232@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anilkumark232/serverlesslyjs/issues"
+  },
+  "homepage": "https://github.com/anilkumark232/serverlesslyjs#readme",
+  "dependencies": {
+    "rx": "^4.1.0",
+    "superagent": "^3.5.2"
+  }
+}
