@@ -1,6 +1,6 @@
 {
   "name": "serverlesslyjs",
-  "version": "1.0.1",
+  "version": "1.0.",
   "description": "serverlesslyjs contains packages related to https://serverlessly.io",
   "main": "index.js",
   "scripts": {
