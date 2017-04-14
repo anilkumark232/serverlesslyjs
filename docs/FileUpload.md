@@ -1,11 +1,11 @@
 
 We use observable of rx for better working on asyncronous http calls.
 
-Here is an example of ImageAnalysis module
+Here is an example of FileUpload module
 ```
 var serverlessly = require('serverlesslyjs');
 
-serverlessly.ImageAnalysis(* Image Path *).subscribe(
+serverlessly.FileUpload(* file Path *).subscribe(
    (data) => {
        console.log(data);
    },
@@ -16,4 +16,4 @@ serverlessly.ImageAnalysis(* Image Path *).subscribe(
 
 ```
 
-Outputs the awesome features of the given image. try it to find its cool features ...
+Results the "url" of the uploaded file.

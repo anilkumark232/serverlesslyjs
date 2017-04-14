@@ -2,7 +2,7 @@ var serverlessly = require('../');
 
 serverlessly.ImageAnalysis(__dirname + "/teddy.jpg").subscribe(
    (data) => {
-       console.log(data);
+       console.log(data.faces);
    },
    (error) => {
        console.error(error);
@@ -10,6 +10,15 @@ serverlessly.ImageAnalysis(__dirname + "/teddy.jpg").subscribe(
 );
 
 serverlessly.DeviceInfo().subscribe(
+   (data) => {
+       console.log(data);
+   },
+   (error) => {
+       console.error(error);
+   }
+);
+
+serverlessly.FileUpload(__dirname + "/teddy.jpg").subscribe(
    (data) => {
        console.log(data);
    },
